@@ -53,3 +53,75 @@
 
 ### Provide detailed command action information as command executes
 > cp -v or --verbose
+
+## The **mv** command's commonly used options
+### Overwrite any preexisting destination files with same name as destination
+> mv -f or --force
+
+### Ask before overwriting any preexisting destination files with the same name as destination
+> mv -i or --interactive
+
+### Do not overwrite any preexisting destination files with the same name as destination
+> mv -f or --no-clobber
+
+### Only overwrite preexisting destination files with the same name as destination if the source file is newer
+> mv -u or --update
+
+### Provide detailed command action information as command executes
+> mv -v or --verbose
+
+## The **rsync** command's commonly used options
+### Use archive mode
+> rsync -a or --archive
+
+### Retain device and special files
+> rsync -D
+
+### Retain file's group
+> rsync -g or --group
+
+### Display any numeric output in a human-readable format
+> rsync -u or --human-readable
+
+### Copy symbolic links as symbolics links
+> rsync -l or --links
+
+### Retain file's owner
+> rsync -o or --owner
+
+### Retain file's permission
+> rsync -p or --perms
+
+### Display progression of file copy process
+> rsync --progress
+
+### Copy a directory's contents, and for any subdirectory within the original directory tree, consecutively copy its contents as well (recursive)
+> rsync -r or --recursive
+
+### Display detailed file transfer statistics
+> rsync --stats
+
+### Retain's files modification time
+> rsync -t or --times
+
+### Provide detailed command action information as command executes
+> rsync -v or --verbose
+
+## The **rm** command's commonly used options
+### Delete any empty directories
+> rm -d or --dir
+
+### Continue on with the deletion process, even if some files designated by the command for removal do not exist, and do not ask prior to deleting any existing files
+> rm -f or --force
+
+### Ask before deleting any existing files
+> rm -i or --interactive
+
+### Ask before deleting more than three files, or when using the -r option
+> rm -I
+
+### Delete a directory's contents, and for any subdirectory within the original directory tree, consecutively delete its contents and the subdirecoty as well (recursive)
+> rm -R, -r or --recursive
+
+### Provide detailed command action information as command executes
+> rm -v or --verbose
